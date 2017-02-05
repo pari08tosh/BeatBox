@@ -1,0 +1,459 @@
+@media only screen and (max-width: 768px)
+{
+#headbox{
+	background-color: #e74c3c;
+	background-size: cover;
+	color: white;
+	box-shadow: 0px 0px 3px #000 !important;
+	z-index: 1000;
+	opacity: 0;
+	animation-duration: 1s;
+}
+button:focus { outline: none; }
+#headcon{
+	z-index: 1000;
+	margin-top: 0px;
+	text-align: center;
+	img{
+		padding-bottom: 10px;
+		width: auto;
+		height: 70px;
+		border-bottom: solid 3px rgba(54, 54, 54, 0.15);
+		display: inline;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+}
+#score{
+	font-weight: bold;
+	font-size: 140%;
+	i{
+		transition: all 2s;
+	}
+}
+#time{
+	font-weight: bold;
+	font-size: 140%;
+	i{
+		transition: all 2s;
+	}
+	color: white;
+}
+.fa{
+	padding-right: 10px;
+}
+#diff{
+	opacity: 0;
+	transition: height 1s;
+	padding: 5vh 20px 20vh 20px;
+	padding: 7% 5% 7% 5%;
+	color: white;
+	background-color: #2980b9;
+	background-size: cover;
+	text-align: center;
+	P{
+		padding: 10px;
+		font-size: 120%;
+	}
+	button{
+		width: 250px;
+		height: 50px;
+		border-radius: 50px;
+		margin: 15px 10px;
+		font-size: 150%;
+	}
+	#mode-win{
+		padding: 10vh 5% 25vh 5%;
+		display: none;
+		opacity: 0;
+		h1{
+			padding-bottom: 30px;
+		}
+	}
+	animation-duration: 1s;
+}
+
+.button-feel{
+	border: white 2px outset;
+	margin: 2% 0px 0px 2%;
+	box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+}
+#play0, #play1, #play2{
+	display: none;
+	opacity: 0;
+	border: solid #2c3e50;
+	border-radius: 5px;
+	border-top: none;
+	background-color: rgba(52, 73, 94, 0.88);
+	margin: 0px 10px;
+	width: auto;
+	height: 80vh;
+	background-size: cover;
+}
+#play0 .col-xs-3{
+	padding: 0px;
+	width: 35%;
+	position: relative;
+	left: -10vw;
+	.colbox{
+		transition: all .3s;
+		background-color: transparent;
+		height: 25vh;
+		border: white 2px outset;
+		margin: 2% 0px 0px 2%;
+		box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+	}
+	cursor: url(hammer.png), default;
+}
+#play1 .col-xs-3{
+	padding: 0px;
+	width: 30%;
+	position: relative;
+	left: -3vw;
+	.colbox{
+		transition: all .3s;
+		background-color: transparent;
+		height: 25vh;
+		border: white 2px outset;
+		margin: 2% 0px 0px 2%;
+		box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+	}
+	cursor: url(hammer.png), default;
+}
+#play2 .col-xs-3{
+	padding: 0px;
+	width: 30%;
+	position: relative;
+	left: -3vw;
+	.colbox{
+		transition: all .3s;
+		width: 98%;
+		background-color: transparent;
+		height: 23vh;
+		border-top-color: white;
+		border-left-color: white;
+		border-top-style: outset;
+		border-left-style: outset;
+		margin: 3% 0px 0px 3%;
+		box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+	}
+	cursor: url(hammer.png), default;
+}
+.right{
+	color: white;
+	padding: 5px;
+	position: relative;
+	top: -20px;
+	display: none;
+}
+.wrong{
+	color: white;
+	padding: 5px;
+	position: relative;
+	top: -20px;
+	display: none;
+	top: -20px;
+}
+.text{
+	display: none;
+	color: white;
+	p{
+		font-size: 200%;
+		font-weight: bold;
+	}
+	padding: 10px;
+}
+#gameover{
+	color: white;
+	display: none;
+	opacity: 0;
+	background-color: rgb(46, 204, 113);
+	background-size: cover;
+	text-align: center;
+	a{
+		width: 300px;
+		height: 50px;
+		border-radius: 50px;
+		margin: 15px 10px;
+		font-size: 150%;
+	}
+	padding: 40px 0px;
+}
+#about{
+	display: none;
+	opacity: 0;
+	background-color: #1abc9c;
+	background-size: cover;
+}
+#about-con{
+	padding: 5% 7%;
+	color: #ecf0f1;
+	text-align: center;
+	.row{
+		padding: 5%;
+		img{
+			height: 200px;
+			width: auto;
+		}
+		p{
+			font-size: 140%;
+			position: relative;
+			top: 30px;
+			a{
+				color: white;
+			}
+			i{
+				color: white;
+				font-size: 150%;
+				position: relative;
+				top: 20px;
+				padding: 5%;
+			}
+			i:hover{
+				color:  #e74c3c;
+				cursor: pointer;
+			}
+		}
+		.btn{
+			background-color: transparent;
+			background-image: none;
+		}
+		.btn:hover{
+			background-color: orangered;
+		}
+	}
+}
+}
+@media only screen and (min-width: 768px) {
+#headbox{
+	background-color: #e74c3c;
+	background-size: cover;
+	color: white;
+	box-shadow: 0px 0px 3px #000 !important;
+	z-index: 1000;
+	opacity: 0;
+	animation-duration: 1s;
+}
+button:focus { outline: none; }
+#headcon{
+	z-index: 1000;
+	margin-top: 0px;
+	text-align: center;
+	img{
+		padding-bottom: 10px;
+		width: auto;
+		height: 70px;
+		border-bottom: solid 3px rgba(54, 54, 54, 0.15);
+		display: inline;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+}
+#score{
+	font-weight: bold;
+	font-size: 140%;
+	i{
+		transition: all 2s;
+	}
+}
+#time{
+	font-weight: bold;
+	font-size: 140%;
+	i{
+		transition: all 2s;
+	}
+	color: white;
+}
+.fa{
+	padding-right: 10px;
+}
+#diff{
+	opacity: 0;
+	transition: height 1s;
+	padding: 5vh 20px 20vh 20px;
+	padding: 7% 5% 7% 5%;
+	color: white;
+	background-color: #2980b9;
+	background-size: cover;
+	text-align: center;
+	P{
+		padding: 10px;
+		font-size: 120%;
+	}
+	button{
+		width: 300px;
+		height: 50px;
+		border-radius: 50px;
+		margin: 15px 10px;
+		font-size: 150%;
+	}
+	#mode-win{
+		padding: 10vh 5% 25vh 5%;
+		display: none;
+		opacity: 0;
+		h1{
+			padding-bottom: 30px;
+		}
+	}
+	animation-duration: 1s;
+}
+
+.button-feel{
+	border-top-color: white;
+	border-left-color: white;
+	border-top-style: outset;
+	border-left-style: outset;
+	margin: 5px 0px 0px 5px;
+	box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+}
+#play0, #play1, #play2{
+	display: none;
+	opacity: 0;
+	border: solid #2c3e50;
+	border-radius: 5px;
+	border-top: none;
+	background-color: rgba(52, 73, 94, 0.88);
+	margin: 0px 10px;
+	width: auto;
+	height: 80vh;
+	background-size: cover;
+}
+#play0 .col-xs-3{
+	padding: 0px;
+	.colbox{
+		transition: all .3s;
+		background-color: transparent;
+		height: 35vh;
+		border-top-color: white;
+	border-left-color: white;
+	border-top-style: outset;
+	border-left-style: outset;
+		margin: 3% 0px 0px 3%;
+	box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+	}
+	cursor: url(hammer.png), default;
+}
+#play1 .col-xs-3{
+	padding: 0px;
+	position: relative;
+	left: 5vw;
+	.colbox{
+		transition: all .3s;
+		background-color: transparent;
+		height: 35vh;
+		border-top-color: white;
+		border-left-color: white;
+		border-top-style: outset;
+		border-left-style: outset;
+		margin: 3% 0px 0px 3%;
+		box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+	}
+	cursor: url(hammer.png), default;
+}
+#play2 .col-xs-3{
+	padding: 0px;
+	position: relative;
+	left: 5vw;
+	.colbox{
+		transition: all .3s;
+		width: 98%;
+		background-color: transparent;
+		height: 23vh;
+		border-top-color: white;
+		border-left-color: white;
+		border-top-style: outset;
+		border-left-style: outset;
+		margin: 3% 0px 0px 3%;
+		box-shadow: 0px 0px 7px rgba(42, 42, 42, 0.58);
+	}
+	cursor: url(hammer.png), default;
+}
+.right{
+	color: white;
+	padding: 5px;
+	position: relative;
+	top: -20px;
+	display: none;
+}
+.wrong{
+	color: white;
+	padding: 5px;
+	position: relative;
+	top: -20px;
+	display: none;
+	top: -20px;
+}
+.text{
+	display: none;
+	color: white;
+	p{
+		font-size: 200%;
+		font-weight: bold;
+	}
+	padding: 10px;
+}
+#gameover{
+	color: white;
+	display: none;
+	opacity: 0;
+	background-color: rgb(46, 204, 113);
+	background-size: cover;
+	text-align: center;
+	a{
+		width: 300px;
+		height: 50px;
+		border-radius: 50px;
+		margin: 15px 10px;
+		font-size: 150%;
+	}
+	padding: 40px 0px;
+}
+#about{
+	display: none;
+	opacity: 0;
+	background-color: #1abc9c;
+	background-size: cover;
+}
+#about-con{
+	padding: 5% 7%;
+	color: #ecf0f1;
+	text-align: center;
+	.row{
+		padding: 5%;
+		img{
+			height: 200px;
+			width: auto;
+		}
+		p{
+			font-size: 140%;
+			position: relative;
+			top: 30px;
+			a{
+				color: white;
+			}
+			i{
+				color: white;
+				font-size: 150%;
+				position: relative;
+				top: 20px;
+				padding: 5%;
+			}
+			i:hover{
+				color:  #e74c3c;
+				cursor: pointer;
+			}
+		}
+		.btn{
+			background-color: transparent;
+			background-image: none;
+		}
+		.btn:hover{
+			background-color: orangered;
+		}
+	}
+}
+}
